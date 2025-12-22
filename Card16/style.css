@@ -1,0 +1,546 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background: rgb(218, 218, 218);
+    margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    margin-right: 400px;
+}
+.txt{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.xt, .xt1{
+    margin-left: 50px;
+}
+.div1{
+    margin-right: -600px;
+}
+.block2, .divv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    color: white;
+}
+.block2::before{
+    content: "";
+    background: rgba(128, 10, 122, 1);
+    position: absolute;
+    width: 725px;
+    height: 800px;
+    left: -36px;
+    top: -8px;
+    border-radius: 0px 0px 5px 5px;
+}
+.div3, .div4{
+    position: relative;
+}
+.tx1, .tx3{
+    margin-top: -10px;
+    font-weight: initial;
+}
+.tx3{
+    margin-top: -20px;
+    font-weight: initial;
+}
+.tx3, .tx{
+    font-size: 12px;
+    font-weight: initial;
+}
+.tx1, .tx2{
+    font-size: 24px;
+    font-weight: initial;
+}
+.ph3{
+    position: absolute;
+    left: 8px;
+    top: -25px;
+}
+.ph1{
+    position: absolute;
+    top: 15px;
+}
+.ph2{
+    position: absolute;
+    top: -15px;
+    width: 24px;
+    height: 24px;
+    left: -5px;
+}
+.div5{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.divv{
+    margin-left: 10px;
+}
+.txt:hover{
+    text-decoration: underline solid blue;
+    transition: 0.7s;
+}
+.tx4{
+    font-size: 80px;
+    font-weight: bold;
+}
+.block3{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.xt2, .xt3{
+    margin-top: -80px;
+}
+.card1{
+    position: relative;
+}
+.ph4{
+    position: absolute;
+    left: 560px;
+    top: 60px;
+}
+.div6{
+    margin-top: -60px;
+}
+.xt5{
+    margin-top: -10px;
+}
+.block4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: -1000px;
+    margin-top: 60px;
+}
+.card2{
+    padding: 20px;
+    border: none;
+    background: darkorange;
+        width: 255px;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+}
+.bt{
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2033);;
+        margin-top: 10px;
+        margin-left: 30px;
+        color: white;
+}
+.ph5{
+    position: absolute;
+    left: 260px;
+    top: 90px;
+    transition: left 1.2s ease-out;
+
+}
+.card2:hover .ph5{
+    position: absolute;
+    left: 102px;
+    transition: left 1.2s ease-out;
+}
+.bt:hover{
+     background: rgba(255, 255, 255, 0.349);;
+     transition: 0.7s;
+}
+.g👍{
+    background: darkorchid;
+}
+.card2:hover .as{
+    position: absolute;
+    left: 107px;
+    transition: left 1.2s ease-out;
+}
+.t{
+    width: 130px;
+}
+.block5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.txt1 {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 2;
+}
+.card3 .sp1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    background: linear-gradient(47deg, #b6f443a4, rgba(241, 179, 1, 1));
+    transition: 0.8s ease;
+    z-index: 1;
+}
+.card3 .txt1:nth-child(1):hover ~ .sp1 {
+    left: 0px;
+    width: 90px;
+}
+.card3 .txt1:nth-child(2):hover ~ .sp1 {
+    left: 90px;
+    width: 90px;
+}
+.card3 .txt1:nth-child(3):hover ~ .sp1 {
+    left: 170px;
+    width: 90px;
+}
+.card3 .txt1:nth-child(4):hover ~ .sp1 {
+    left: 250px;
+    width: 90px;
+}
+.card3 .txt1:nth-child(5):hover ~ .sp1 {
+    left: 330px;
+    width: 90px;
+}
+.card3 .txt1:nth-child(6):hover ~ .sp1 {
+    left: 410px;
+    width: 120px;
+}
+.card3 .txt1:nth-child(7):hover ~ .sp1 {
+    left: 520px;
+    width: 120px;
+}
+.card3 .txt1:nth-child(8):hover ~ .sp1 {
+    left: 630px;
+    width: 90px;
+}
+.tx6{
+    font-size: 40px;
+    font-weight: bold;
+     margin-left: 100px;
+}
+.block6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.vid{
+    padding-right: 10px;
+    padding: 25px;
+        width: 530px;
+            height: 270px;
+        gap: 40px;
+        /* border: none; */
+        border: 1px solid rgb(107, 107, 107);
+        background: whitesmoke;
+        border-radius: 20px;
+         display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+.x, .xx, .xxx{
+    margin-top: -10px;
+}
+.tx8{
+    color: rgb(114, 114, 114);
+}
+.vid2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 20px;
+}
+.bt1{
+    width: 50px;
+     height: 50px;
+  border-radius: 50%;
+    font-size: 24px;
+      color: white;
+      border: none;
+     background: wheat;
+     position: relative;
+}
+.bt1:hover{
+    background: rgba(241, 179, 1, 1);
+    transition: 0.8s;
+}
+.ph7{
+    position: absolute;
+    transform: rotate(-35deg);
+    top: 47px;
+    left: 360px;
+    transition: left 1.2s ease;
+}
+.p{
+     position: absolute;
+    transform: rotate(-55deg);
+    top: 17px;
+    left: 360px;
+    transition: left 1.2s ease;
+}
+.pp1{
+     position: absolute;
+    transform: rotate(-35deg);
+    top: 35px;
+    left: 360px;
+    transition: left 1.2s ease;
+}
+.ppp{
+    position: absolute;
+    transform: rotate(-42deg);
+    top: 40px;
+    left: 360px;
+    transition: left 1.2s ease;
+}
+.tx7{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pppp{
+     position: absolute;
+    transform: rotate(-44deg);
+    top: 17px;
+    left: 360px;
+    transition: left 1.2s ease;
+}
+.phh2{
+     position: absolute;
+    transform: rotate(0deg);
+    top: 65px;
+    left: 360px;
+    transition: left 1.2s ease;
+    width: 50px;
+}
+.phh3{
+     position: absolute;
+    transform: rotate(15deg);
+    top: 65px;
+    left: 360px;
+    transition: left 1.2s ease;
+    width: 50px;
+}
+.vid:hover .ph7{
+    position: absolute;
+    left: 20px;
+    transition: left 1.2s ease;
+}
+/* .vid:hover .ph6{
+    transform: rotate(360deg);
+    transition: 5s;
+} */
+.h{
+    font-size: 30px;
+}
+.c{
+    margin-left: -600px;
+}
+.block7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+.card5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(128, 10, 122, 1);
+    padding: 40px;
+    max-width: 100%;
+    height: 400px;
+    width: 1900px;
+    position: relative;
+}
+.ph8{
+    width: 30px;
+    /* border-radius: 10px; */
+    border: none;
+    transition: content 1.2s ease;
+}
+.bt2:hover .ph8{
+    content: url(https://cdn.iconscout.com/icon/free/png-256/free-google-play-icon-svg-download-png-2082866.png?f=webp&w=128);
+    transition: content 1.2s ease;
+}
+.bt2:hover .hp{
+    content: url(https://icon-library.com/images/apple-app-store-icon/apple-app-store-icon-9.jpg);
+    transition: content 1.2s ease;
+}
+.bt2{
+    padding: 10px;
+    width: 200px;
+    height: 70px;
+    border: 1px solid rgba(150, 150, 150, 0.527);
+    border-radius: 20px;
+    background: none;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    transition: 0.8s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bt2:hover{
+    background: rgba(253, 4, 241, 0.315);
+    transition: 0.8s;
+    box-shadow: 10px 20px 50px -10px red,
+    30px -10px 40px -20px darkorange;
+}
+form{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+}
+.tx9{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.xt6{
+    margin-top: -35px;
+}
+.card6 {
+  position: relative;
+}
+.ph9 {
+  position: relative;   
+  width: 600px;
+  height: 420px;
+  z-index: 2;
+}
+.ph10 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 1; 
+}
+.blockk1 {
+  padding: 60px 100px 30px;
+  background: #fff;
+  font-family: sans-serif;
+}
+.food-tp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+.ff-gaol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.tt1 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.ff-goal a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+}
+.ff-goal a:hover {
+  color: #000;
+}
+.S23-plus-5g {
+  font-weight: 600;
+  font-size: 30px;
+}
+.add-frend {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+.Good-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Me {
+  display: flex;
+  gap: 15px;
+}
+.Me a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.xx1:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+ @media (min-width: 3840px){
+      .card5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(128, 10, 122, 1);
+    padding: 40px;
+    max-width: 100%;
+    height: 400px;
+    width: 3850px;
+    position: relative;
+}
+.cardd{
+    margin-left: 650px;
+}
+.cardd1{
+    margin-right: 700px;
+}
+.tx6{
+    margin-left: 1380px;
+}
+.card1{
+    margin-left: 1470px;
+}
+.block2::before{
+    width: 1205px;
+}
+.cardd2{
+    margin-left: 800px;
+}
+.xtt1, .xt2, .xt3, .xt4, .xt5{
+    margin-left: -280px;
+}
+ }
